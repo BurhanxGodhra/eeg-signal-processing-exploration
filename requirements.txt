@@ -1,0 +1,4 @@
+mne
+numpy
+matplotlib
+scipy
