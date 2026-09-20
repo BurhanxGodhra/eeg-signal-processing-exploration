@@ -1,18 +1,9 @@
-# eeg-signal-exploration
+# EEG Signal Processing Exploration
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BurhanxGodhra/eeg-signal-exploration/blob/main/eeg_exploration.ipynb)
 
-Signal exploration and visualization of multi-channel EEG datasets.
+An early exploration of EEG signal processing and motor-imagery classification.
 
-## Overview
-This repository contains a standalone Jupyter/Colab notebook setup for rapid execution and reproducibility.
+The work covers filtering, Independent Component Analysis (ICA), power spectral density, event extraction, epoching, Common Spatial Patterns (CSP), and classical machine learning.
 
-## Quickstart
-1. Click the **Open in Colab** badge above to launch directly in Google Colab.
-2. To run locally:
-   ```bash
-   git clone https://github.com/BurhanxGodhra/eeg-signal-exploration.git
-   cd eeg-signal-exploration
-   pip install -r requirements.txt
-   jupyter notebook eeg_exploration.ipynb
-   ```
+**Tools:** Python · MNE · NumPy · Scikit-learn · Matplotlib
